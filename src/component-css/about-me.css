@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Kavivanar|Montserrat');
+
+div.about-me{
+    font-family: 'Montserrat', sans-serif;
+}
+div.about-me h4{
+    font-family: 'Kavivanar', cursive;
+    font-size: 20px;
+}

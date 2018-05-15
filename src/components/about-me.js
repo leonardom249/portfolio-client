@@ -1,8 +1,9 @@
 import React from 'react'
+import '../component-css/about-me.css';
 
 export function AboutMe (){
     return(
-        <p>
+        <div className="about-me">
             <h4>About Me:</h4>
             I am a full stack developer candidate 
             skilled in writing clean, testable code with a background in 
@@ -14,6 +15,6 @@ export function AboutMe (){
             a proven track record of learning languages/libraries in under 1 week 
             and fully look forward to learning as much as possible as I help the development 
             team.
-        </p>
+        </div>
     )
 }
