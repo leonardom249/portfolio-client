@@ -1,4 +1,5 @@
 import React from 'react'
+import '../component-css/work-examples.css';
 
 export function WorkExamples (){
     return(
