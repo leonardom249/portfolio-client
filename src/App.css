@@ -1,10 +1,26 @@
 body {
   margin: 0 auto;
-  max-width: 50em;
+  max-width: 100em;
   line-height: 2;
-  padding: 4em 1em;
+  padding: 1em 1em;
 }
 
 img{
-  width:33.33%
+  width:100%
+}
+
+@media only screen and (min-width: 768px) {
+  img{
+    width:40%
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    margin: 0 auto;
+    max-width: 70em;
+    line-height: 2;
+    padding: 4em 1em;
+  }
 }
