@@ -21,7 +21,7 @@ export function WorkExamples (){
                     </a> 
                 </div>
                 </div>
-            <div className="work-example"><h3>Ingredient Inheritance</h3>
+            <div className="work-example">
                 <div className="example-2">
                     <h3>Hands To Hear</h3>
                     <p><em>Co-created, spaced repetition app to learn basic ASL alphabet.</em></p>
