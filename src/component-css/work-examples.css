@@ -12,15 +12,45 @@ div.examples h4{
     font-weight: 500;
 }
 
-div.work-example{
-    
+div.examples{
+    display: table;
+    width: 100%;
 }
 
+div.work-example{
+    width: 100%;
+    float: left;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+div.example{
+    margin: 5% !important;
+    width:50%;
+}
+
+img{
+    width:100%
+  }
+
 @media only screen and (min-width: 768px) {
-    
+
+    div.work-example{
+        width: 49%;
+        float: none;
+        display: table-cell;
+        border: 1px solid black;
+        border-radius: 10%;
+    }
+
+    /* img{
+        width:40%
+      } */
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    
+    /* div.work-example{
+        width: 33.333%;
+    } */
 }

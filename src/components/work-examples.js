@@ -5,7 +5,7 @@ export function WorkExamples (){
     return(
         <div className="examples"> 
             <div className="work-example">
-                <div className="example-1">
+                <div className="example">
                     <h3>Ingredient Inheritance</h3>
                     <p><em>Family recipe app for those looking to securely store family recipes</em></p>
                     <ul>
@@ -17,12 +17,12 @@ export function WorkExamples (){
                     </ul>
                     <h4>Click Picture for Deployed Version:</h4>
                     <a href='https://vigilant-leakey-ceaa26.netlify.com/'>
-                        <img alt="deployed-app" src='https://lh3.googleusercontent.com/n-dayesQno7wI38X0_qEyUYp0BYgAzvKKAeCcqb9ryiAQ9RKw577u-WAwFMrVU5IZ4s3I5skL9IaJItvYXvshGzZ2_r813yQYXByvNgYph8mrF735VN75yvqTk6Mia7-p6oU5fvB=w2400' />
+                        <img alt="deployed-app" src='https://lh3.googleusercontent.com/im3F87Ae4QoLdiOIp1hjdG1a0ybPMpvYmEIu4e2cE0dTJy6lsmDyVpaSK4oDKgq2ePNTibk21Kqa9274LWcz2rvUrW5fdLIJO1nNZ6oA5Yb8dqttmLO53c_FKe1p-9aR9mUNOL7k=w2400' />
                     </a> 
                 </div>
                 </div>
             <div className="work-example">
-                <div className="example-2">
+                <div className="example">
                     <h3>Hands To Hear</h3>
                     <p><em>Co-created, spaced repetition app to learn basic ASL alphabet.</em></p>
                     <ul>
