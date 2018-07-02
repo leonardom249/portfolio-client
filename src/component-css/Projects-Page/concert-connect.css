@@ -1,0 +1,91 @@
+/* ===ConcertConnect SECTION=== */
+
+.background-concertconnect {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: 
+        linear-gradient(
+        rgba(215, 201, 56, .9), 
+        rgba(58, 63, 68, 0.6)
+        ),
+        url(https://raw.githubusercontent.com/leonardom249/ConcertConnect-Client/master/src/images/concert-bg3.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+    position: relative;
+    height: 100vh;
+    min-height: 750px;
+    border-top: 1px solid #3a3f44;
+}
+
+.project-button {
+    display: block;
+    width: 200px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: 5px solid white;
+    border-radius: 8px;
+}
+
+.project-button:hover {
+    background-color: #d7c938;
+    color: white;
+}
+
+.features-container {
+    padding-top: 10vh;
+}
+
+.feature-one, .feature-two, .feature-three, .features-list {
+    display: flex;
+    flex-direction: row;
+}
+.feature-image{
+    margin: auto;
+}
+
+.feature-icon {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 0 auto;
+}
+
+.feature-text {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 850px) {
+
+    /* concertconnect responsive */
+
+    .background-concertconnect {
+        height: 100%;
+    }
+
+    .features-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-button {
+        margin: auto;
+        margin-bottom: 60px;
+    }
+
+    .feature-text {
+        font-size: 26px;
+    }
+
+
+}

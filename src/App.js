@@ -1,22 +1,18 @@
 import React, { Component } from 'react';
-import './App.css';
-import { WorkExamples } from './components/work-examples';
+import './index.css';
 import { NavBar } from './components/nav-bar';
-import { Header } from './components/header';
-import { AboutMe } from './components/about-me';
-import { ContactInfo } from './components/contact-info';
+import LandingPage from './components/Projects-Page/landing-page';
+import IngredientInheritance from './components/Projects-Page/project-1-inginh';
+
+
 // import { Recommendations } from './components/recommendations';
 
 class App extends Component {
   render() {
     return (
       <div className="portfolio app main">
-        <Header/>
-        <NavBar/>
-        <AboutMe/>
-        <ContactInfo/>
-        {/* <Recommendations/> */}
-        <WorkExamples/>
+        <LandingPage/>
+        <IngredientInheritance />
       </div>
     );
   }

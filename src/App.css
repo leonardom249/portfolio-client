@@ -1,8 +1,7 @@
 body {
   margin: 0 auto;
-  max-width: 100em;
   line-height: 2;
-  padding: 1em 1em;
+  padding: none;
 }
 
 
@@ -15,8 +14,6 @@ body {
 @media only screen and (min-width: 992px) {
   body {
     margin: 0 auto;
-    max-width: 70em;
     line-height: 2;
-    padding: 4em 1em;
   }
 }

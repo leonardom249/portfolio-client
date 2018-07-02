@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css?family=Kavivanar|Montserrat');
+
+.onboarding-page {
+    z-index: 10;
+    position: relative;
+}
+.background-landing {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: 
+        linear-gradient(
+        rgba(218, 74, 74, 0.9), 
+        rgba(58, 63, 68, 0.6)
+        ),
+        url("https://images.unsplash.com/photo-1491947153227-33d59da6c448?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f475006a86934d5e483676571dde298&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb");;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    min-height: 750px;
+}
+
+.landing-section {
+    padding-top: 20vh;
+}
+
+.title {
+    font-family: 'Kavivanar', cursive;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0px;
+} 
+
+.sub-title {
+    font-family: 'Montserrat', cursive;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.projects-button {
+    font-family: 'Kavivanar', cursive;
+    text-decoration: none;
+    width: 200px;
+    padding: 15px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(112, 37, 37, 0.9);
+    border: none;
+    border-radius: 40px;
+    margin-right: 40px;
+    outline: none;
+}
+
+p.about-me{
+    font-family: 'Kavivanar', cursive;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.projects-button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #42A4F8;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 850px) {
+
+    /* landing responsive */
+
+    .background-landing {
+        height: 100%;
+    }
+
+    .landing-section {
+        padding-top: 10vh;
+    }
+
+    .title {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .buttons-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects-button {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+
+}
