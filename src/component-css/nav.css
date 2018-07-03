@@ -26,7 +26,7 @@
 }
 
 
-.logo {
+.icon {
     font-family: 'Kavivanar', cursive;
     font-size: 1.5rem;
     text-decoration: none;
@@ -35,10 +35,10 @@
 }
 
 
-.st-btn, .st-first, .st-last {
+/* .st-btn, .st-first, .st-last {
     background-color: #F1F9FF!important;
     margin-left: 20px;
-}
+} */
 
 /* svg {
     fill: #48A6F5!important;
@@ -52,11 +52,11 @@
     color: #3d3d3d!important;
 } */
 
-.spacer {
+.add-room {
     flex: 1;
 }
 
-.spacer-half {
+.add-room-half {
     flex: 0.5;
 }
 
@@ -88,7 +88,7 @@
 
 .navigation-items a:hover,
 .navigation-items a:active {
-    color:#BDE1FC;
+    color:rgba(236, 165, 165, 0.9);
 }
 
 @media only screen and (max-width: 850px) {
@@ -101,7 +101,7 @@
     .toggle-button {
         display: none;
     }
-    .spacer-half {
+    .add-room-half {
         display: none;
     }
 }

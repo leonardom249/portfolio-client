@@ -12,22 +12,25 @@ export class NavBar extends React.Component {
             <React.Fragment>
                 <header className="navbar">
                     <nav className="navigation">
-                        <div className="logo"><a className="logo" href="#top">M.L. Portfolio</a></div>
-                        <div className="spacer"></div>
+                        <div className="icon"><a className="icon" href="#top">M.L. Portfolio</a></div>
+                        <div className="add-room"></div>
                         <div className="toggle-button">
                             {/* <HamburgerMenu /> */}
                         </div> 
-                        <div className="spacer-half"></div>
+                        <div className="add-room-half"></div>
                         <div className="navigation-items">
                             <ul>
                                 <li>               
-                                    <a className="nav" href="https://docs.google.com/document/d/1LQXfYq6V0Majp8OrzevKYLiB6VUXM5e4O5H9-YvEStQ/edit?usp=sharing">Resume</a>
+                                    <a className="nav" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1LQXfYq6V0Majp8OrzevKYLiB6VUXM5e4O5H9-YvEStQ/edit?usp=sharing">Resume</a>
                                 </li>
                                 <li> 
-                                    <a className="nav" href="https://github.com/leonardom249">Github</a>
+                                    <a className="nav" target="_blank" rel="noopener noreferrer" href="https://github.com/leonardom249">Github</a>
                                 </li> 
                                 <li> 
-                                <a className="nav" href="https://www.linkedin.com/in/meganleonardo/">Linkedin</a>
+                                    <a className="nav" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/meganleonardo/">Linkedin</a>
+                                </li> 
+                                <li> 
+                                    <a className="nav" href="#contact">Contact</a>
                                 </li> 
                             </ul>
                         </div>

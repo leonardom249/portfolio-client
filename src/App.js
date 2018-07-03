@@ -4,6 +4,8 @@ import LandingPage from './components/Projects-Page/landing-page';
 import IngredientInheritance from './components/Projects-Page/project-1-inginh';
 import HandsToHear from './components/Projects-Page/project-2-hth';
 import NavBar from './components/nav-bar';
+import Contact from './components/Projects-Page/contact';
+
 
 
 
@@ -18,6 +20,7 @@ class App extends Component {
         <LandingPage/>
         <IngredientInheritance />
         <HandsToHear />
+        <Contact />
       </div>
     );
   }
