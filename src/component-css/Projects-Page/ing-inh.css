@@ -21,12 +21,30 @@
     border-top: 1px solid #3a3f44;
 }
 
+.app-title{
+    font-family: 'Kavivanar', cursive;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.app-info{
+    font-family: 'Kavivanar', cursive;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin: 10px;
+}
+
 .move-button {
     display: block;
     width: 200px;
     padding: 10px;
     margin-top:30px;
-    margin-right:10px;
+    margin-right:40px;
     font-size: 15px;
     font-weight: 300;
     text-align: center;
@@ -50,7 +68,14 @@
     border: none;
     border-radius: 40px;
     margin-right: 40px;
+    margin-top: 10px;
     outline: none;
+}
+
+.ing-inh-button:hover {
+    cursor: pointer;
+    background-color: rgba(93, 94, 145, 0.9);
+    color: white;
 }
 
 .move-button:hover {
@@ -71,6 +96,10 @@
     font-size: 20px;
     font-weight: 500;
     text-align: justify;
+}
+
+.demo-account{
+    margin-bottom: 0px;
 }
 
 @media only screen and (max-width: 850px) {
@@ -94,6 +123,19 @@
     .scroll-top-button {
         margin: auto;
         margin-bottom: 60px;
+    }
+
+    .ing-inh-button, .move-button{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .app-title{
+        font-size: 36px;
+        text-align: center;
     }
 
 }

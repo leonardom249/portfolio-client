@@ -15,7 +15,7 @@ export class LandingPage extends React.Component {
                 </div>
             )
 
-        let dialog='Hello there!  My name is Megan and I am a full stack developer with a passion for using React, Redux, Node.js, Express, and MongoDB.  I love the intuitiveness of React/Redux, the inclusivity of being able to use JavaScript across client and server via Node.js, and the flexability of MongoDB.  In other words, I love my MERN stack.  I also love creativity and learning.  I have been a musician for several years, playing downtown Austin, TX and learning how to code in my spare time.  As for future aspirations, I am looking forward to becoming a full stack, front end, or junior web developer and learning something new each and every day.  I believe with an open mind and a hunger to learn, anything is possible.'
+        let dialog='Hello there!  My name is Megan and I am a full stack developer with a passion for using React, Redux, Node.js, Express, and MongoDB.  I love the intuitiveness of React/Redux, the inclusivity of being able to use JavaScript across client and server via Node.js, and the flexability of MongoDB.  In other words, I love my MERN stack.  I also love creativity and learning.  I have been a musician for several years, playing downtown Austin, TX so creativity is a big part of my everyday.  As for future aspirations, I am looking forward to becoming a full stack, front end, or junior web developer and learning something new each and every day.  I believe with an open mind and a hunger to learn, anything is possible.'
         return (
             <div className="background-landing">
                     <section className="landing-section" id='top'>
@@ -24,7 +24,7 @@ export class LandingPage extends React.Component {
                                 <h1 className="title">Megan Leonardo's Portfolio</h1>
                                 <div className="row">
                                     <h2 className="sub-title">About Me:</h2>
-                                    <p className="about-me">{dialog}</p>
+                                    <p className="about-info">{dialog}</p>
                                     <h2 className="sub-title">Projects:</h2>
                                     {buttons}
                                 </div>
