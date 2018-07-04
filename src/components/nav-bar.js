@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link, Redirect } from 'react-router-dom';
 import '../component-css/nav.css';
 import MobileNavDrawer from './mobile-nav-bar'
 
@@ -45,11 +44,10 @@ export default class NavBar extends React.Component {
         );
     }
 
-    renderMobileNav() {
-        if(this.state.mobileNavVisible) {
-            console.log("working")
-        }
+    handleLarger(){
+        this.setState({mobileNav:null}) 
     }
+
           
     handleNavClick() {
         if(!this.state.mobileNavVisible) {
@@ -70,9 +68,6 @@ export default class NavBar extends React.Component {
                 <div className="mobile_nav">
                   <p onClick={this.handleNavClick.bind(this)}><i className="fas fa-bars"></i></p>
                 </div>)              
-        }
-        if(this.state.windowWidth > 850){
-            this.state.mobileNav=null
         }
 
         return (

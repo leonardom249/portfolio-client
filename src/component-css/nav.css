@@ -37,24 +37,6 @@
     font-weight: 900;
 }
 
-
-/* .st-btn, .st-first, .st-last {
-    background-color: #F1F9FF!important;
-    margin-left: 20px;
-} */
-
-/* svg {
-    fill: #48A6F5!important;
-}
-
-#st-el-3 .st-btn > span {
-    color: #48A6F5;
-}
-
-#st-el-2 .st-btn {
-    color: #3d3d3d!important;
-} */
-
 .add-room {
     flex: 1;
 }
@@ -87,6 +69,7 @@
     font-size: 1.2rem;
     color: white;
     text-decoration: none;
+    font-family: 'Kavivanar', cursive;
 }
 
 .navigation-items a:hover,
@@ -94,9 +77,6 @@
     color:rgba(236, 165, 165, 0.9);
 }
 
-.fa-bars{
-    color:white;
-}
 
 @media only screen and (max-width: 850px) {
     .navigation-items {
