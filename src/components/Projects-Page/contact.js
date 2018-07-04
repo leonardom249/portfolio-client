@@ -16,11 +16,11 @@ export default class Contact extends React.Component {
                         </p>
 
                         <div className="buttons-container">
-                            <a className="action-2-button" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1LQXfYq6V0Majp8OrzevKYLiB6VUXM5e4O5H9-YvEStQ/edit?usp=sharing">Resume</a>
+                            <a className="action-2-button" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1LQXfYq6V0Majp8OrzevKYLiB6VUXM5e4O5H9-YvEStQ/edit?usp=sharing">Resume <i className="fas fa-file"></i></a>
                         
-                            <a href="https://vigilant-leakey-ceaa26.netlify.com/" target="_blank" rel="noopener noreferrer" className="action-2-button">Github</a>
+                            <a href="https://vigilant-leakey-ceaa26.netlify.com/" target="_blank" rel="noopener noreferrer" className="action-2-button">Github <i className="fab fa-github"></i></a>
                             
-                            <a href="https://vigilant-leakey-ceaa26.netlify.com/" target="_blank" rel="noopener noreferrer" className="action-2-button">LinkedIn</a>
+                            <a href="https://vigilant-leakey-ceaa26.netlify.com/" target="_blank" rel="noopener noreferrer" className="action-2-button">LinkedIn <i className="fab fa-linkedin"></i></a>
 
                         </div>   
                         <div className="row">

@@ -16,8 +16,8 @@ export default class IngredientInheritance extends React.Component {
                         <p className="about-info"><strong> Username:<em> demo</em> <br/> Password:<em> demo1234</em></strong></p>
                         <div className="buttons-container">
                             <a href="https://vigilant-leakey-ceaa26.netlify.com/" target="_blank" rel="noopener noreferrer" className="action-1-button">Deployed App <i className="fas fa-book-open"></i></a>
-                            <a href="https://github.com/leonardom249/ingredient-inheritance-client" target="_blank" rel="noopener noreferrer" className="action-1-button">Github Client</a>
-                            <a href="https://github.com/leonardom249/ingredient-inheritance-server" target="_blank" rel="noopener noreferrer" className="action-1-button">Github Server</a>
+                            <a href="https://github.com/leonardom249/ingredient-inheritance-client" target="_blank" rel="noopener noreferrer" className="action-1-button">Github Client <i className="fab fa-github"></i></a>
+                            <a href="https://github.com/leonardom249/ingredient-inheritance-server" target="_blank" rel="noopener noreferrer" className="action-1-button">Github Server <i className="fab fa-github"></i></a>
                         </div>
                         <div className="row">
                             <div className="buttons-container">

@@ -16,8 +16,8 @@ export default class ConcertConnect extends React.Component {
                         <p className="about-info"><strong> Username:<em> demo</em> <br/> Password:<em> demo123456</em></strong></p>
                         <div className="buttons-container">
                             <a href="https://concertconnect-client.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="action-1-button">Deployed App   <i className="fas fa-music"></i></a>
-                            <a href="https://github.com/kttm-development/kttm-client" target="_blank" rel="noopener noreferrer" className="action-1-button">Github Client</a>
-                            <a href="https://github.com/kttm-development/kttm-server" target="_blank" rel="noopener noreferrer" className="action-1-button">Github Server</a>
+                            <a href="https://github.com/kttm-development/kttm-client" target="_blank" rel="noopener noreferrer" className="action-1-button">Github Client <i className="fab fa-github"></i></a>
+                            <a href="https://github.com/kttm-development/kttm-server" target="_blank" rel="noopener noreferrer" className="action-1-button">Github Server <i className="fab fa-github"></i></a>
                         </div>
                         <div className="row">
                             <div className="buttons-container">
