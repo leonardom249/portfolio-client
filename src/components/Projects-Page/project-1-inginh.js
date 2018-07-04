@@ -7,7 +7,7 @@ export default class IngredientInheritance extends React.Component {
     render() {
         return (
             <ScrollableAnchor id={'ing-inh'}>
-                <section className="project-section background-ing-inh">
+                <section className="project-section background-ing-inh landing-section">
                     <div className="title-container col-12">
                         <h2 className="app-title">Ingredient Inheritance</h2>
                         <p className="sub-title">About App: </p>
@@ -15,7 +15,7 @@ export default class IngredientInheritance extends React.Component {
                         <p className="sub-title demo-account">Deployed Demo Account:</p>
                         <p className="about-info"><strong> Username:<em> demo</em> <br/> Password:<em> demo1234</em></strong></p>
                         <div className="buttons-container">
-                            <a href="https://vigilant-leakey-ceaa26.netlify.com/" target="_blank" rel="noopener noreferrer" className="action-1-button">Deployed App</a>
+                            <a href="https://vigilant-leakey-ceaa26.netlify.com/" target="_blank" rel="noopener noreferrer" className="action-1-button">Deployed App <i className="fas fa-book-open"></i></a>
                             <a href="https://github.com/leonardom249/ingredient-inheritance-client" target="_blank" rel="noopener noreferrer" className="action-1-button">Github Client</a>
                             <a href="https://github.com/leonardom249/ingredient-inheritance-server" target="_blank" rel="noopener noreferrer" className="action-1-button">Github Server</a>
                         </div>

@@ -148,6 +148,29 @@
     border-top: 1px solid #3a3f44;
 }
 
+/*Concert Connect*/
+
+.background-concertconnect {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: 
+        linear-gradient(
+        rgba(93, 94, 145, 0.9), 
+        rgba(87, 80, 80, 0.6)
+        ),
+        url(https://raw.githubusercontent.com/leonardom249/ConcertConnect-Client/master/src/images/concert-bg3.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    min-height: 750px;
+    border-top: 1px solid #3a3f44;
+}
+
 /* Contact */
 
 .background-contact {
@@ -157,7 +180,7 @@
     bottom: 0;
     background: 
         linear-gradient(
-        rgba(93, 94, 145, 0.9), 
+        rgba(218, 74, 74, 0.9), 
         rgba(87, 80, 80, 0.6)
         ),
         url(https://images.unsplash.com/photo-1496389429868-ef51f7140b1e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c917a775b202d8dce8d9e2aa54444903&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb);
@@ -177,7 +200,7 @@
 }
 
 .email:hover{
-    color: rgba(87, 80, 80, 0.6);
+    color: rgb(93, 94, 145);
 }
 
 
@@ -185,7 +208,7 @@
 
     /* ingredient inheritance responsive */
 
-    .background-ing-inh, .background-hands-to-hear, .background-contact {
+    .background-ing-inh, .background-hands-to-hear, .background-concertconnect, .background-contact {
         height: 100%;
     }
 

@@ -1,0 +1,5 @@
+.navbar-mobile, .navbar-mobile ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}

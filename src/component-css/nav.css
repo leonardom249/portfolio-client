@@ -94,6 +94,10 @@
     color:rgba(236, 165, 165, 0.9);
 }
 
+.fa-bars{
+    color:white;
+}
+
 @media only screen and (max-width: 850px) {
     .navigation-items {
         display: none;

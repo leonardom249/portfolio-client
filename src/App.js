@@ -5,12 +5,7 @@ import IngredientInheritance from './components/Projects-Page/project-1-inginh';
 import HandsToHear from './components/Projects-Page/project-2-hth';
 import NavBar from './components/nav-bar';
 import Contact from './components/Projects-Page/contact';
-
-
-
-
-
-// import { Recommendations } from './components/recommendations';
+import ConcertConnect from './components/Projects-Page/project-3-concertconnect';
 
 class App extends Component {
   render() {
@@ -20,6 +15,7 @@ class App extends Component {
         <LandingPage/>
         <IngredientInheritance />
         <HandsToHear />
+        <ConcertConnect />
         <Contact />
       </div>
     );
