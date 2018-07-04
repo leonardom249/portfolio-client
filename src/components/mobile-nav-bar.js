@@ -6,7 +6,6 @@ export default function MobileNavDrawer (){
         <React.Fragment>\
                 <header className="navbar-mobile">
                     <nav className="navigation-mobile">
-                        <div className="add-room-mobile"></div>
                         <div className="nav-items-mobile">
                             <ul>
                                 <li key={1}>               
