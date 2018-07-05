@@ -29,6 +29,8 @@
     color: white;
     border: 5px solid white;
     border-radius: 8px;
+    margin-bottom: 10px;
+
 }
 
 .action-1-button {
@@ -120,8 +122,8 @@
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-    height: 100vh;
-    min-height: 800px;
+    height: 100%;
+    min-height: 850px;
     border-top: 1px solid #3a3f44;
 }
 
@@ -143,8 +145,8 @@
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-    height: 100vh;
-    min-height: 800px;
+    height: 100%;
+    min-height: 850px;
     border-top: 1px solid #3a3f44;
 }
 
@@ -166,8 +168,8 @@
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-    height: 100vh;
-    min-height: 800px;
+    height: 100%;
+    min-height: 850px;
     border-top: 1px solid #3a3f44;
 }
 
@@ -189,8 +191,8 @@
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-    height: 100vh;
-    min-height: 550px;
+    height: 100%;
+    min-height: 600px;
     border-top: 1px solid #3a3f44;
 }
 
