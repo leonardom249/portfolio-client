@@ -22,11 +22,24 @@
     background-size: cover;
     position: relative;
     height: 100vh;
-    min-height: 750px;
+    min-height: 800px;
 }
 
 .landing-section {
     padding-top: 20vh;
+}
+
+.head-title{
+    width:75%;
+    margin: 0 auto;
+    border-radius: 40px;
+    padding:5px;
+    background: 
+    linear-gradient(
+    rgba(93, 94, 145, 0.9), 
+    rgba(58, 63, 68, 0.6)
+    );
+
 }
 
 .title {
@@ -78,6 +91,14 @@ p.about-info{
     margin: 10px;
 }
 
+p.quote{
+    font-family: 'Kavivanar', cursive;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
 .projects-button:hover {
     cursor: pointer;
     background-color: white;
@@ -89,6 +110,10 @@ p.about-info{
 @media only screen and (max-width: 850px) {
 
     /* landing responsive */
+
+    .head-title{
+        width:90%;
+    }
 
     .background-landing {
         height: 100%;

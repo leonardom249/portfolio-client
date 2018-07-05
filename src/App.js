@@ -13,9 +13,9 @@ class App extends Component {
       <div className="portfolio app main">
         <NavBar />
         <LandingPage/>
-        <IngredientInheritance />
-        <HandsToHear />
         <ConcertConnect />
+        <HandsToHear />
+        <IngredientInheritance />
         <Contact />
       </div>
     );

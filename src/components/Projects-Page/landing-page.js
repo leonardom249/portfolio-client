@@ -8,9 +8,9 @@ export class LandingPage extends React.Component {
     render() {
         let buttons=(
                 <div className="buttons-container">
-                    <a href="#ing-inh" className="projects-button">Ingredient Inheritance <i className="fas fa-book-open"></i></a>
-                    <a href="#hands-to-hear" className="projects-button">Hands To Hear <i className="fas fa-hands"></i></a>
                     <a href="#concertconnect" className="projects-button">ConcertConnect <i className="fas fa-music"></i></a>
+                    <a href="#hands-to-hear" className="projects-button">Hands To Hear <i className="fas fa-hands"></i></a>
+                    <a href="#ing-inh" className="projects-button">Ingredient Inheritance <i className="fas fa-book-open"></i></a>
                 </div>
             )
 
@@ -20,7 +20,10 @@ export class LandingPage extends React.Component {
                     <section className="landing-section" id='top'>
                         <div className="row">
                             <div className="title-container col-12">
-                                <h1 className="title">Megan Leonardo's Portfolio</h1>
+                                <div className="head-title">
+                                    <h1 className="title">Megan Leonardo's Portfolio</h1>
+                                    <p className="quote"><em>"Always learning, always open to new things."</em></p>
+                                </div>
                                 <div className="row">
                                     <h2 className="sub-title">About Me:</h2>
                                     <p className="about-info">{dialog}</p>
