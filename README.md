@@ -16,6 +16,16 @@ My portfolio was built as a way to showcase my skills with React, HTML, and CSS 
 
 ### Screenshots:
 
+![mlp1](https://user-images.githubusercontent.com/35779012/42390353-367c0db4-8111-11e8-9ba0-b24f0123dbbe.png)
+
+![ml2](https://user-images.githubusercontent.com/35779012/42390358-391cde90-8111-11e8-9afe-b4cf9949113f.png)
+
+![ml3](https://user-images.githubusercontent.com/35779012/42390362-3a81a3a6-8111-11e8-9961-de6d78b39eb7.png)
+
+![mlp-cell](https://user-images.githubusercontent.com/35779012/42390363-3bf38c90-8111-11e8-852f-48befabcce08.png)
+
+![mlp-cell2](https://user-images.githubusercontent.com/35779012/42390365-3d519a00-8111-11e8-8ede-7c596bd0d796.png)
+
 
 
 
