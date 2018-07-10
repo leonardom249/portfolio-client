@@ -12,8 +12,8 @@
     bottom: 0;
     background: 
         linear-gradient(
-        rgba(218, 74, 74, 0.9), 
-        rgba(58, 63, 68, 0.6)
+        rgba(253, 166, 140, 0.8), 
+        rgba(58, 63, 68,.99)
         ),
         url("https://images.unsplash.com/photo-1491947153227-33d59da6c448?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f475006a86934d5e483676571dde298&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb");;
     -webkit-background-size: cover;
@@ -22,7 +22,7 @@
     background-size: cover;
     position: relative;
     height: 100%;
-    min-height: 900px;
+    min-height: 950px ;
 }
 
 .landing-section {
@@ -30,14 +30,18 @@
 }
 
 .head-title{
-    width:75%;
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    height: 400px;
+    justify-content: center;
     margin: 0 auto;
-    border-radius: 10px;
+    border-radius: 50%;
     padding:5px;
     background: 
     linear-gradient(
-    rgba(93, 94, 145, 0.932), 
-    rgba(58, 63, 68, 0.863)
+    rgba(125, 176, 164, .932), 
+    rgba(58, 63, 68, 0.9)
     ),
     url('../code-snippet2.png');
     -webkit-background-size: cover;
@@ -51,8 +55,8 @@
     font-family: 'Kavivanar', cursive;
     color: white;
     text-align: center;
-    font-size: 60px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 800;
     margin: 0px;
 } 
 
@@ -80,35 +84,54 @@
     text-align: center;
     font-size: 18px;
     font-weight: 700;
-    color: white;
-    background-color: rgba(218, 74, 74, 0.9);
+    color: #2b2726;
+    background: 
+    linear-gradient(
+    rgba(253, 166, 140), 
+    rgba(58, 63, 68, 0.9)
+    );
     border: none;
     border-radius: 40px;
     margin-right: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     outline: none;
+}
+p{
+    font-weight: 700;
 }
 
 p.about-info{
     font-family: 'Kavivanar', cursive;
-    color: white;
+    color: #2b2726;
     text-align: center;
     font-size: 20px;
     margin: 10px;
 }
 
+/* .section-info{
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.3), 
+        rgba(58, 63, 68, 0.3)
+        );
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+} */
+
 p.quote{
     font-family: 'Kavivanar', cursive;
-    color: white;
+    color: #2b2726;
     text-align: center;
     font-size: 18px;
     margin-top: 0px;
+    font-weight: 800;
 }
 
 .projects-button:hover {
     cursor: pointer;
-    background-color: white;
-    color: rgba(218, 74, 74, 0.9);
+    background-color: #2b2726;
+    color: rgba(125, 176, 164, .9);
 }
 
 /* Responsive */
@@ -118,7 +141,8 @@ p.quote{
     /* landing responsive */
 
     .head-title{
-        width:90%;
+        width:300px;
+        height:300px;
     }
 
     .background-landing {
@@ -130,7 +154,7 @@ p.quote{
     }
 
     .title {
-        font-size: 36px;
+        font-size: 30px;;
         text-align: center;
     }
 
@@ -147,5 +171,8 @@ p.quote{
         margin-bottom: 15px;
     }
 
+    p.quote{
+        font-size: 12px;
+    }
 
 }

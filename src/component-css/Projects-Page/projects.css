@@ -1,6 +1,6 @@
 .app-title{
     font-family: 'Kavivanar', cursive;
-    color: white;
+    color: #2b2726;
     text-align: center;
     font-size: 40px;
     font-weight: 700;
@@ -10,7 +10,7 @@
 
 .app-info{
     font-family: 'Kavivanar', cursive;
-    color: white;
+    color: #2b2726;
     text-align: center;
     font-size: 18px;
     margin: 10px;
@@ -26,8 +26,9 @@
     font-weight: 300;
     text-align: center;
     text-decoration: none;
-    color: white;
-    border: 5px solid white;
+    color: #2b2726;
+    background: rgba(214, 218, 217, 0.548);
+    border: 5px solid #2b2726;
     border-radius: 8px;
     margin-bottom: 10px;
 
@@ -42,8 +43,8 @@
     text-align: center;
     font-size: 20px;
     font-weight: 700;
-    color: rgba(93, 94, 145, 0.9);
-    background-color: white;
+    color: rgba(125, 176, 164);
+    background-color: #2b2726;
     border: none;
     border-radius: 40px;
     margin-right: 40px;
@@ -53,13 +54,13 @@
 
 .action-1-button:hover {
     cursor: pointer;
-    background-color: rgba(93, 94, 145, 0.9);
-    color: white;
+    background-color: rgba(125, 176, 164);
+    color: #2b2726;
 }
 
 .move-1:hover {
-    background-color: rgba(93, 94, 145, 0.9);
-    color: white;
+    background-color:rgba(125, 176, 164);
+    color: #2b2726;
 }
 
 .action-2-button {
@@ -71,8 +72,8 @@
     text-align: center;
     font-size: 20px;
     font-weight: 700;
-    color: rgba(218, 74, 74, 0.9);
-    background-color: white;
+    color: rgba(253, 166, 140);
+    background-color: #2b2726;
     border: none;
     border-radius: 40px;
     margin-right: 40px;
@@ -82,13 +83,13 @@
 
 .action-2-button:hover {
     cursor: pointer;
-    background-color: rgba(218, 74, 74, 0.9);
-    color: white;
+    background-color: rgb(253, 166, 140);
+    color: #2b2726;
 }
 
 .move-2:hover {
-    background-color: rgba(218, 74, 74, 0.9);
-    color: white;
+    background-color: rgb(253, 166, 140);
+    color: #2b2726;
 }
 
 .text-container {
@@ -113,8 +114,8 @@
     bottom: 0;
     background: 
         linear-gradient(
-        rgba(93, 94, 145, 0.9), 
-        rgba(87, 80, 80, 0.6)
+        rgba(125, 176, 164, .9), 
+        rgba(87, 80, 80, 0.8)
         ),
         url(https://lh3.googleusercontent.com/ppBjSUP4FnhU-6MHGI1tTBpokhQjxggayFkKtjS8BurRK_XEuqZAKgx-tCYQkzRNmUar38uotI4lDX7KQV118TfI-t_6ua7wItJmChauT9ccr2P5hcyU_PcOCfFyRqlyiSRGm_70=w2400);
     -webkit-background-size: cover;
@@ -136,8 +137,8 @@
     bottom: 0;
     background: 
         linear-gradient(
-        rgba(218, 74, 74, 0.9), 
-        rgba(87, 80, 80, 0.6)
+        rgba(253, 166, 140,.95), 
+        rgba(87, 80, 80, 0.9)
         ),
         url(https://imgur.com/l5gXEgt.png);
     -webkit-background-size: cover;
@@ -159,8 +160,8 @@
     bottom: 0;
     background: 
         linear-gradient(
-        rgba(93, 94, 145, 0.9), 
-        rgba(87, 80, 80, 0.6)
+        rgba(125, 176, 164, .94), 
+        rgba(87, 80, 80, 0.8)
         ),
         url(https://raw.githubusercontent.com/leonardom249/ConcertConnect-Client/master/src/images/concert-bg3.png);
     -webkit-background-size: cover;
@@ -182,8 +183,8 @@
     bottom: 0;
     background: 
         linear-gradient(
-        rgba(218, 74, 74, 0.9), 
-        rgba(87, 80, 80, 0.6)
+        rgba(253, 166, 140, .95), 
+        rgba(87, 80, 80, 0.8)
         ),
         url(https://images.unsplash.com/photo-1496389429868-ef51f7140b1e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c917a775b202d8dce8d9e2aa54444903&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb);
     -webkit-background-size: cover;
@@ -197,12 +198,13 @@
 }
 
 .email{
-    color: white;
+    color: #2b2726;
     font-size: 20px;
+    font-weight: 600;
 }
 
 .email:hover{
-    color: rgb(93, 94, 145);
+    color: rgba(125, 176, 164);
 }
 
 

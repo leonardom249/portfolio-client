@@ -49,13 +49,13 @@
 .nav-items-mobile a {
     font-size: 1rem;
     font-family: 'Kavivanar', cursive;
-    color: #3a3f44;
+    color: #2b2726;
     text-decoration: none;
 }
 
 .nav-items-mobile a:hover,
 .nav-items-mobile a:active {
-    color:rgba(236, 165, 165, 0.9);
+    color:rgba(254, 201, 185, 0.9);
 }
 
 

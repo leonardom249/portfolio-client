@@ -25,8 +25,10 @@ export class LandingPage extends React.Component {
                                     <p className="quote"><em>"Always learning, always open to new things."</em></p>
                                 </div>
                                 <div className="row">
-                                    <h2 className="sub-title">About Me:</h2>
-                                    <p className="about-info">{dialog}</p>
+                                    <div className="section-info">
+                                        <h2 className="sub-title">About Me:</h2>
+                                        <p className="about-info">{dialog}</p>
+                                    </div>
                                     <h2 className="sub-title">Projects:</h2>
                                     {buttons}
                                 </div>
