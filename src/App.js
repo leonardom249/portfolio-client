@@ -6,6 +6,8 @@ import HandsToHear from './components/Projects-Page/project-2-hth';
 import NavBar from './components/nav-bar';
 import Contact from './components/Projects-Page/contact';
 import ConcertConnect from './components/Projects-Page/project-3-concertconnect';
+import YMTTW from './components/Projects-Page/project-4-ymttw';
+
 
 class App extends Component {
   render() {
@@ -14,8 +16,9 @@ class App extends Component {
         <NavBar />
         <LandingPage/>
         <ConcertConnect />
-        <HandsToHear />
+        <YMTTW/>
         <IngredientInheritance />
+        <HandsToHear />
         <Contact />
       </div>
     );

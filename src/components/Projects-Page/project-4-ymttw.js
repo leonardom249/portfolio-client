@@ -12,6 +12,8 @@ export default class YMTTW extends React.Component {
                         <h2 className="app-title">You Matter To This World</h2>
                         <p className="sub-title">About App: </p>
                         <p className="app-info">You Matter To This World is <em>currently in development</em>.  It will be a website to promote positivity and raise suicide awareness.  It is a freelance site I am working on with a new local charity group.  Currently being built with the MERN stack.</p>
+                        <p className="sub-title demo-account">Coming Winter 2018</p>
+                        <p className="about-info"><strong> Temporary Deployed Site <br/> Currently gives basic information about future site.</strong></p> 
                         <div className="buttons-container">
                             <a href="https://ymttw.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="action-2-button">Deployed Site <i className="fas fa-hands"></i></a>
                             <a href="https://github.com/leonardom249/you-matter" target="_blank" rel="noopener noreferrer" className="action-2-button">Github Client <i className="fab fa-github"></i></a>
