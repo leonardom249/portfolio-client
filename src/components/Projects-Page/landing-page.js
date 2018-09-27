@@ -9,8 +9,9 @@ export class LandingPage extends React.Component {
         let buttons=(
                 <div className="buttons-container">
                     <a href="#concertconnect" className="projects-button">ConcertConnect <i className="fas fa-music"></i></a>
-                    <a href="#hands-to-hear" className="projects-button">Hands To Hear <i className="fas fa-hands"></i></a>
+                    <a href="#ymttw" className="projects-button">YMTTW <i className="fas fa-globe"></i></a>
                     <a href="#ing-inh" className="projects-button">Ingredient Inheritance <i className="fas fa-book-open"></i></a>
+                    <a href="#hands-to-hear" className="projects-button">Hands To Hear <i className="fas fa-hands"></i></a>
                 </div>
             )
 

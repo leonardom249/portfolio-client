@@ -15,14 +15,14 @@ export default class YMTTW extends React.Component {
                         <p className="sub-title demo-account">Coming Winter 2018</p>
                         <p className="about-info"><strong> Temporary Deployed Site <br/> Currently gives basic information about future site.</strong></p> 
                         <div className="buttons-container">
-                            <a href="https://ymttw.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="action-2-button">Deployed Site <i className="fas fa-hands"></i></a>
+                            <a href="https://ymttw.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="action-2-button">Deployed Site <i className="fas fa-globe"></i></a>
                             <a href="https://github.com/leonardom249/you-matter" target="_blank" rel="noopener noreferrer" className="action-2-button">Github Client <i className="fab fa-github"></i></a>
                             {/* <a href="https://github.com/leonardom249/ymttw-server" target="_blank" rel="noopener noreferrer" className="action-2-button">Github Server <i className="fab fa-github"></i></a> */}
                         </div>
                         <div className="row">
                                 <div className="buttons-container">
                                     <a href='#top' className="move-button move-2">Back to The Top</a>
-                                    {/* <a href='#ing-inh' className="move-button move-2">Next</a> */}
+                                    <a href='#ing-inh' className="move-button move-2">Next</a>
                                 </div>
                         </div>
                     </div>
