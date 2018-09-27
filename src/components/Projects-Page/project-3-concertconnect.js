@@ -22,7 +22,7 @@ export default class ConcertConnect extends React.Component {
                         <div className="row">
                             <div className="buttons-container">
                                 <a href='#top' className="move-button move-1">Back to The Top</a>
-                                <a href='#hands-to-hear' className="move-button move-1">Next</a>
+                                <a href='#ymttw' className="move-button move-1">Next</a>
                             </div>
                         </div>
                     </div>

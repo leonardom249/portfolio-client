@@ -22,7 +22,7 @@ export default class HandsToHear extends React.Component {
                         <div className="row">
                                 <div className="buttons-container">
                                     <a href='#top' className="move-button move-2">Back to The Top</a>
-                                    <a href='#ing-inh' className="move-button move-2">Next</a>
+                                    <a href='#contact' className="move-button move-2">Contact</a>
                                 </div>
                         </div>
                     </div>
